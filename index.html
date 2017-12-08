@@ -1,10 +1,32 @@
 <html>
 
 <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <!-- A navbar with a menu that is collapsed for small screens -->
+    <div class="container">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+            <!-- A button that expand/collapse the menu -->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <!-- The menu with the links -->
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home</a>
+                <a class="nav-item nav-link" href="#">About</a>
+                <a class="nav-item nav-link" href="#">Training</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
   <div id="particle-canvas"></div>
 </body>
     <script type="text/javascript" src="animation.js"></script>
